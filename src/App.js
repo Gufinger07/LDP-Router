@@ -1,9 +1,14 @@
-
-import './App.css';
-
+import "./App.css";
+import NavBar from "./components/NavBar";
+import Jquery from "./components/Jquery";
 function App() {
   return (
-    <h1>XD</h1>
+    <>
+      <NavBar />
+      <div className="card">
+        <Jquery />
+      </div>
+    </>
   );
 }
 
