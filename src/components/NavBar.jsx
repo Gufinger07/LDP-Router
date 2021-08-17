@@ -5,13 +5,14 @@ import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 
 import ImportantDevicesIcon from '@material-ui/icons/ImportantDevices';
 import StorageIcon from '@material-ui/icons/Storage';
+import { Link } from 'react-router-dom';
 
 
 const useStyles = makeStyles({
   root: {
     backgroundColor: "AliceBlue",
-    height: 60,
-    width: 2000,
+    height: "3.75rem",
+    width: "125rem",
   },
 });
 
@@ -34,7 +35,7 @@ export default function SimpleBottomNavigation() {
       <BottomNavigationAction label="Node-JS" icon={<StorageIcon />} />
       <BottomNavigationAction label="Spring" icon={<StorageIcon />} />
       <BottomNavigationAction label="Laravel" icon={<StorageIcon />} />
-
+      
     </BottomNavigation>
   );
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Appx from './Appx.jsx';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Appx />
   </React.StrictMode>,
   document.getElementById('root')
 );

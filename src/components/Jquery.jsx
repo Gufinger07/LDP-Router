@@ -9,12 +9,12 @@ import imagem from "../assets/jQuery.png";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 400,
-    maxHeight: 800,
-    marginTop: 20,
+    maxWidth: "25rem",
+    maxHeight: "50rem",
+    marginTop: "1.25rem",
   },
   media: {
-    height: 400,
+    height: "25rem",
   },
 });
 
