@@ -18,7 +18,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function MediaCard() {
+export default function Jquery() {
   const classes = useStyles();
 
   return (
@@ -53,3 +53,4 @@ export default function MediaCard() {
     </Card>
   );
 }
+
